@@ -1,13 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import LoginComponent from './LoginComponent';
+import React, { Component } from 'react';
+import LoginComponent from './components/LoginComponent';
+import { BrowserRouter } from 'react-router-dom';
+import MyRouter from './components/MyRouter';
 
-function App() {
-  return (
-    <div className="App">
-      <LoginComponent></LoginComponent>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className='App'>
+        <MyRouter />
+      </div>
+    )
+  }
 }
 
 export default App;
