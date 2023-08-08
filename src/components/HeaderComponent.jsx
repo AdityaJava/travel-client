@@ -10,7 +10,9 @@ class HeaderComponent extends Component {
                     <nav className="navbar navbar-expand-md navbar-dark bg-dark">
                         <ul className="navbar-nav navbar-collapse">
                             <li className="nav-link ">
-                                <Link to="/">TravelPackages</Link>
+                                <Link to="/"></Link>
+                                <Link to="/travelPackages">TravelPackages</Link>
+
                             </li>
                         </ul>
                     </nav>

@@ -11,6 +11,8 @@ class MyRouter extends Component {
                 <BrowserRouter>
                     <Routes>
                         <Route exact path="/" element={<PackageSearchComponent />}></Route>
+                        <Route exact path="/travelPackages" element={<TravelPackages />}></Route>
+
                     </Routes>
                 </BrowserRouter>
             </div>
