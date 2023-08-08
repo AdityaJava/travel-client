@@ -8,11 +8,11 @@ class HeaderComponent extends Component {
             <div>
                 <header>
                     <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-                        <ul className="navbar-nav navbar-collapse">
+                        <ul className="navbar-nav ">
                             <li className="nav-link ">
-                                <Link to="/"></Link>
-                                <Link to="/travelPackages">TravelPackages</Link>
-
+                                <Link to="/" className="nav-link"></Link>
+                                <Link to="/travelPackages" className="nav-link">TravelPackages</Link>
+                                <Link to="/packageSearch" className="nav-link">PackageSearch</Link>
                             </li>
                         </ul>
                     </nav>
